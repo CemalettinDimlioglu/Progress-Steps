@@ -49,11 +49,35 @@ body {
 .progress{
      background-color: var(--line-border-fill);
      height: 4px;
-     width: 20%;
+     width: 5%;
      position: absolute;
      top: 50%;
      left: 0;
      transform: translateY(-50%);
      z-index: -1;
      transition: 0.4s ease;
+}
+.circle{
+     background-color: #fff;
+     border-radius: 50%;
+     height: 30px;
+     width: 30px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border: 3px solid var(--line-border-empty);
+}
+.circle.active{
+     border-color: var(--line-border-fill);
+}
+.btn{
+     background-color:var(--line-border-fill) ;
+     color: #fff;
+     /* border: 0; */
+     border-radius: 8px;
+     cursor: pointer;
+     font-family: inherit;
+     padding: 8px 24px;
+     font-size: 14px;
+     margin: 5px;
 }

@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+:root{
+     --line-border-fill:#ff4d6d;
+     --line-border-empty:#dee2e6;
+
+}
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;    
+}
